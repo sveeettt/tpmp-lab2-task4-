@@ -1,0 +1,26 @@
+# Бинарные файлы
+bin/
+*.exe
+*.out
+program
+
+# Объектные файлы
+obj/
+*.o
+
+# Временные файлы
+*.tmp
+*.log
+*.cache
+*.swp
+*.swo
+*~
+
+# Файлы IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Системные файлы
+.DS_Store
+Thubs.db
