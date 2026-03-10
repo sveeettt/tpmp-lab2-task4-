@@ -6,6 +6,7 @@ SRCDIR = src
 INCDIR = include
 BINDIR = bin
 OBJDIR = obj
+DATADIR = data
 
 SOURCES = $(wildcard $(SRCDIR)/*.c)
 OBJECTS = $(SOURCES:$(SRCDIR)/%.c=$(OBJDIR)/%.o)
@@ -32,8 +33,4 @@ clean:
 run: $(TARGET)
 	./$(TARGET)
 
-info:
-	@echo "Проект: tpmp-lab2-task4"
-	@echo "Компилятор: $(CC)"
-	@echo "Флаги: $(CFLAGS)"
-	@echo "Исходники: $(SOURCES)"
+

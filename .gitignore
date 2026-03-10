@@ -24,3 +24,6 @@ obj/
 # Системные файлы
 .DS_Store
 Thubs.db
+
+data/*.output.txt
+data/*.out
